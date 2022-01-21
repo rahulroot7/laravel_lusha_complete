@@ -1,0 +1,8 @@
+[24-Dec-2021 06:28:55 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Factories\Factory' not found in /home/care2020sort/public_html/lusha/database/factories/UserFactory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/database/factories/UserFactory.php on line 8
+[27-Dec-2021 23:43:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Eloquent\Factories\Factory' not found in /home/care2020sort/public_html/lusha/database/factories/UserFactory.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/database/factories/UserFactory.php on line 8

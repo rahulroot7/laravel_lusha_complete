@@ -1,0 +1,12 @@
+[24-Dec-2021 06:29:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php on line 7
+[24-Dec-2021 06:34:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php on line 7
+[27-Dec-2021 23:44:45 UTC] PHP Fatal error:  Uncaught Error: Class 'Illuminate\Database\Seeder' not found in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/care2020sort/public_html/lusha/database/seeders/DatabaseSeeder.php on line 7
