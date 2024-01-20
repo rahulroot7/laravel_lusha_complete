@@ -46,20 +46,20 @@ class BlogController extends Controller
 	    $image->move(public_path('/upload/blog/'),$image_name);
 
 	    $image_path = "/upload/blog/" . $image_name;
-        $create_blog = Blog::create([
-                    'author_name'    =>  $request->author_name,
-                    'author_title' =>  $request->author_title,
-                    'blog_image'      =>  $image_name,
-                    'blog_title'    =>  $request->blog_title,
-                    'category_id' => $request->category,
-                    'description' =>  $request->description,
-                ]);
-        //check if Blog is create
-        if($create_blog){
-            return redirect()->back()->with('success','Blog added successfully.');
-        } else {
-            return redirect()->back()->with('unsuccess','Oops something wrong!');
-        }
+            $create_blog = Blog::create([
+                        'author_name'    =>  $request->author_name,
+                        'author_title' =>  $request->author_title,
+                        'blog_image'      =>  $image_name,
+                        'blog_title'    =>  $request->blog_title,
+                        'category_id' => $request->category,
+                        'description' =>  $request->description,
+                    ]);
+            //check if Blog is create
+            if($create_blog){
+                return redirect()->back()->with('success','Blog added successfully.');
+            } else {
+                return redirect()->back()->with('unsuccess','Oops something wrong!');
+            }
             
     }
 
